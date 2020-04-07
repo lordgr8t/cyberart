@@ -1,0 +1,64 @@
+
+.alien,
+.atom,
+.robot {
+  width: 150px;
+  height: 150px;
+}
+
+.recomendations {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.like {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.recomendations {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.5em;
+}
+
+/**** carusel ****/
+
+.mySlides {
+  display: none;
+}
+
+.slider {
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 350px;
+  height: 250px;
+}
+
+.recomendation-title {
+  font-family: 'Nanum Gothic', sans-serif;
+  text-shadow: -1px 0px 0px rgba(0, 0, 0, 0.50);
+}
+
+.recomendation-p {
+  font-family: 'Nanum Gothic', sans-serif;
+  text-indent: 1.5em;
+  text-align: justify;
+  line-height: 150%;
+  margin-top: 20px;
+}
+
+@media (min-width: 750px) {
+  .slider {
+    width: 600px;
+  }
+
+  .recomendations {
+    margin-top: 40px;
+  }
+}
